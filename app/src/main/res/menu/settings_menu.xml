@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settings_deco"
+        android:title="@string/app_deco">
+
+    </item>
+    <item
+        android:id="@+id/settings_dark_theme"
+        android:icon="@drawable/ic_baseline_dark_mode_24"
+        android:title="@string/app_dark_mode">
+
+    </item>
+
+</menu>

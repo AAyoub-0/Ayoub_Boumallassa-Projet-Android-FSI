@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/note_lib"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="80"
+                android:paddingStart="3dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="3dp"
+                android:paddingBottom="3dp"
+                android:text="Libelle Note"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/not_plus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:gravity="end"
+                android:paddingStart="3dp"
+                android:paddingEnd="3dp"
+                android:paddingBottom="3dp"
+                android:text="..."
+                android:textColor="#cacaca"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borders_clicked_dark" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="5dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="3dp"
+            android:weightSum="100">
+
+            <TextView
+                android:id="@+id/note_eleve"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="note eleve"
+                android:textColor="@color/black_clear" />
+
+            <TextView
+                android:id="@+id/note_classe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:text="note Classe"
+                android:textColor="@color/black_clear" />
+
+            <TextView
+                android:id="@+id/note_min"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:gravity="end"
+                android:text="note min"
+                android:textColor="@color/black_clear" />
+
+            <TextView
+                android:id="@+id/note_max"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:gravity="end"
+                android:text="note max"
+                android:textColor="@color/black_clear" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view19"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borders_clicked_dark" />
+
+        <LinearLayout
+            android:id="@+id/layout_plus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/not_dos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="6dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="3dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/note_dos"
+                    android:textColor="@color/button_primary"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/view21"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/borders_clicked_dark" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="7dp"
+                    android:paddingTop="3dp"
+                    android:paddingEnd="7dp"
+                    android:paddingBottom="3dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/note_eleve_dos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:text="note eleve"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_classe_dos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:text="note Classe"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_min_dos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="end"
+                        android:text="note min"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_max_dos"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:gravity="end"
+                        android:text="note max"
+                        android:textColor="@color/black_clear" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view16"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/borders_clicked_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/not_ora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="6dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="3dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/note_ora"
+                    android:textColor="@color/button_primary"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/view22"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/borders_clicked_dark" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="7dp"
+                    android:paddingTop="3dp"
+                    android:paddingEnd="7dp"
+                    android:paddingBottom="3dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/note_eleve_ora"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:text="note eleve"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_classe_ora"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:text="note Classe"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_min_ora"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="end"
+                        android:text="note min"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_max_ora"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:gravity="end"
+                        android:text="note max"
+                        android:textColor="@color/black_clear" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view24"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/borders_clicked_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/not_ent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="6dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="3dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/note_ent"
+                    android:textColor="@color/button_primary"
+                    android:textSize="14sp" />
+
+                <View
+                    android:id="@+id/view23"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:background="@color/borders_clicked_dark" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="7dp"
+                    android:paddingTop="3dp"
+                    android:paddingEnd="7dp"
+                    android:paddingBottom="3dp"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:id="@+id/note_eleve_ent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:text="note eleve"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_classe_ent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:text="note Classe"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_min_ent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:gravity="end"
+                        android:text="note min"
+                        android:textColor="@color/black_clear" />
+
+                    <TextView
+                        android:id="@+id/note_max_ent"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20"
+                        android:gravity="end"
+                        android:text="note max"
+                        android:textColor="@color/black_clear" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view25"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/borders_clicked_dark" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rem_not_titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="3dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="5dp"
+            android:text="@string/note_rem"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view18"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/borders_clicked_dark" />
+
+        <TextView
+            android:id="@+id/not_rem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:paddingTop="3dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="3dp"
+            android:text="........." />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

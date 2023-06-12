@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Ayoub_Boumallassa-Projet-Android-FSI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- errors -->
+    <string name="err_1">Login et ou mot de passe incorrect</string>
+    <string name="err_2">Mot de passe incorrect</string>
+    <string name="err_3">Veuillez remplir les champs manquants</string>
+    <string name="err_4">Veuillez saisir votre login</string>
+    <string name="err_5">Veuillez saisir votre mot de passe</string>
+    <string name="err_6">Erreur API</string>
+
+    <!-- App -->
+    <string name="app_titre">FSI</string>
+    <string name="app_page_infos">Mes informations</string>
+    <string name="app_page_accueil">Accueil</string>
+    <string name="app_page_notes">Mes notes</string>
+    <string name="app_deco">Déconnexion</string>
+    <string name="app_dark_mode">Thème sombre</string>
+    <string name="mail">Adresse mail</string>
+    <string name="tel">Téléphone</string>
+    <string name="tel_perso">Téléphone personnel</string>
+    <string name="ville">Ville</string>
+    <string name="rue">Rue</string>
+    <string name="num_rue">Numéro de rue</string>
+    <string name="cp">Code postale</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="id">Identifiant</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="adresse">Adresse</string>
+    <string name="adresse_perso">Adresse Personnelle</string>
+    <string name="btn_continuer">Continuer</string>
+    <string name="pas_de_result">Pas de résultat</string>
+
+    <!-- Connexion -->
+    <string name="connexion_titre">Connexion</string>
+    <string name="connexion_login_hint">Entrez votre identifiant</string>
+    <string name="connexion_mdp_hint">Entrez votre mot de passe</string>
+    <string name="connexion_mdp_oublie">mot de passe oublié ?</string>
+    <string name="connexion_btn_valider">Valider</string>
+
+    <!-- Accueil -->
+    <string name="accueil_titre">Bonjour</string>
+    <string name="accueil_prog_notes">Progression des notes</string>
+    <string name="accueil_prog_notes_avenir">Note à venir</string>
+    <string name="accueil_prog_notes_derniere">Dernière note</string>
+    <string name="accueil_prog_notes_aucune">Aucune note</string>
+    <string name="accueil_prog_notes_btn">Consulter mes notes</string>
+    <string name="accueil_mes_infos">Vos informations</string>
+    <string name="accueil_mes_infos_classe">Classe</string>
+    <string name="accueil_infos_tut">Informations Tuteur</string>
+    <string name="accueil_infos_tut_nom">Tuteur</string>
+    <string name="accueil_infos_btn">Plus de détails</string>
+
+    <!-- informations entreprise -->
+    <string name="infos_entreprise">Entreprise</string>
+    <string name="infos_ent_id">Identité de l\'entreprise</string>
+    <string name="infos_ent_id_nom">Raison sociale</string>
+    <string name="infos_ent_id_forme">Forme juridique</string>
+    <string name="infos_ent_id_siren">SIREN</string>
+    <string name="infos_ent_id_siret">SIRET</string>
+    <string name="infos_ent_tuteur">Tuteur entreprise</string>
+
+    <!-- informations perso -->
+    <string name="infos_perso">Informations personnelles</string>
+    <string name="infos_perso_spe">Spécialité</string>
+    <string name="infos_perso_date_nai">Date de naissance</string>
+
+    <!-- mdp oublié -->
+    <string name="mdp_forgot_titre">Vous avez oublié votre mot de passe ?</string>
+    <string name="mdp_forgot_login">Renseignez votre identifiant fsi</string>
+    <string name="mdp_forgot_mail">Renseignez votre adresse mail</string>
+
+    <!-- Notes -->
+    <string name="note_moy">Moyenne</string>
+    <string name="note_rem">Remarque</string>
+    <string name="note_dos">Note dossier</string>
+    <string name="note_ora">Note oral</string>
+    <string name="note_ent">Note entreprise</string>
+
+</resources>
